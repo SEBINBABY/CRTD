@@ -1,0 +1,175 @@
+/* Base CSS */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional for contrast */
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    background: #E7F7FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional for aesthetics */
+}
+
+/* Information Tab Styles */
+.information-tab {
+    position: absolute;
+    width: 493.73px;
+    height: 502.73px;
+    left: 52px;
+    top: calc(50% - 502.73px / 2 + 0.37px);
+    background: url('/static/images/amico.png') no-repeat center center;
+    background-size: contain;
+    border-radius: 8px; /* Optional for rounded corners */
+}
+
+/* Group 16 */
+.group-16 {
+    position: absolute;
+    width: 607px;
+    height: 590px;
+    left: 655px;
+    top: calc(50% - 600px / 2);
+    background-color:#FFF; /* Optional for visualization */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional for design */
+    border-radius: 8px; /* Optional for rounded corners */
+    align-items: center;
+}
+
+/* Image Logo */
+.image-logo {
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    left: 39px;
+    top: 10px;
+    background: url('/static/images/image_1.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Heading: "Log In" */
+.login-heading {
+    position: absolute;
+    width: 507px;
+    height: 54px;
+    left: 40px;
+    top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; /* identical to box height */
+    text-align: center;
+    color: #032F84;
+}
+
+/* Description Box */
+.description-box {
+    position:absolute;
+    width: 465px;
+    height: 77px;
+    left: 70px;
+    top: 103px;
+    background-color: #032F84; /* You can set the background color or adjust it */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.description-box p {
+    font-size: 16px;
+    line-height: 24px;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Title: "Enter Email/Password" */
+.enter-email-title, .enter-password-title {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 70px;
+    top: 220px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #032F84;
+}
+
+/* Email/Password Input Box */
+.email-input, .password-input  {
+    position: absolute;
+    width: 465px;
+    height: 40px;
+    left: 70px;
+    top: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Title: "Enter Password" */
+.enter-password-title {
+    top: 300px;
+}
+
+/* Password Input Box */
+.password-input {
+    top: 330px;
+}
+
+/* Next Button */
+.login-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 44px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left:351px;
+    top: 454px;
+    background: linear-gradient(90deg, #13B3FF 0%, #005AD5 100%);
+    opacity: 0.6;
+    border-radius: 10px;
+    border-color: #005AD5 ;
+    cursor: pointer;
+}
+
+.login-button span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Hover effect */
+.login-button:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+    background: linear-gradient(90deg, #00A0FF 0%, #0044B3 100%); /* Darker gradient on hover */
+}
+
+.create-account-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #005AD5; /* Blue color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    margin-top: 464px; /* Adjust this value as needed */
+    margin-left: 76px; /* Adjust this value as needed */
+    display: inline-block; /* Ensures margin works as intended */
+}
+
+.create-account-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #13B3FF; /* Lighter blue on hover */
+}
+
+

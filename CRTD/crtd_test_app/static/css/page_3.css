@@ -1,0 +1,172 @@
+/* Base CSS */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional for contrast */
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    background: #E7F7FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional for aesthetics */
+}
+
+/* Information Tab Styles */
+.information-tab {
+    position: absolute;
+    width: 493.73px;
+    height: 502.73px;
+    left: 52px;
+    top: calc(50% - 502.73px / 2 + 0.37px);
+    background: url('/static/images/Group_18.png') no-repeat center center;
+    background-size: contain;
+    border-radius: 8px; /* Optional for rounded corners */
+}
+
+/* Group 16 */
+.group-16 {
+    position: absolute;
+    width: 607px;
+    height: 590px;
+    left: 655px;
+    top: calc(50% - 600px / 2);
+    background-color:#FFF; /* Optional for visualization */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional for design */
+    border-radius: 8px; /* Optional for rounded corners */
+    align-items: center;
+}
+
+/* Image Logo */
+.image-logo {
+    position: absolute;
+    width: 180px;
+    height: 95px;
+    left: 39px;
+    top: 10px;
+    background: url('/static/images/image_1.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Heading: "Create Account" */
+.create-account-heading {
+    position: absolute;
+    width: 507px;
+    height: 54px;
+    left: 40px;
+    top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 54px; /* identical to box height */
+    text-align: center;
+    color: #032F84;
+}
+
+/* Title: "Enter Fullname/Email/Contact/Password/Confirm Password" */
+.enter-fullname-title, .enter-email-title, .enter-contact-title, .enter-password1-title, .enter-password2-title  {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 70px;
+    top: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #032F84;
+}
+
+/* Fullname/Email/Contact/Password/Confirm Password Input Box */
+.fullname-input, .email-input, .contact-input, .password1-input , .password2-input {
+    position: absolute;
+    width: 465px;
+    height: 40px;
+    left: 70px;
+    top: 110px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Title: "Enter email" */
+.enter-email-title {
+    top: 160px;
+}
+
+/* Email Input Box */
+.email-input {
+    top: 190px;
+}
+
+/* Title: "Enter Contact" */
+.enter-contact-title {
+    top: 240px;
+}
+
+/* Contact Input Box */
+.contact-input {
+    top: 270px;
+}
+
+/* Title: "Enter Password" */
+.enter-password1-title {
+    top: 320px;
+}
+
+/* Password Input Box */
+.password1-input {
+    top: 350px;
+}
+
+/* Title: "Enter Cofirm Password" */
+.enter-password2-title {
+    top: 400px;
+}
+
+/* Confirm Password Input Box */
+.password2-input {
+    top: 430px;
+}
+
+/* Next Button */
+.submit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 44px;
+    gap: 10px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left:188px;
+    top: 494px;
+    background: linear-gradient(90deg, #13B3FF 0%, #005AD5 100%);
+    opacity: 0.6;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: #005AD5 ;
+}
+
+.submit-button span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Hover effect */
+.submit-button:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+    background: linear-gradient(90deg, #00A0FF 0%, #0044B3 100%); /* Darker gradient on hover */
+}
+
+
+
+
