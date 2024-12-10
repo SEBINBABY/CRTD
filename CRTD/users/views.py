@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Passkey
-from .models import User, UserResponse, UserExamProgress, OTP
+from .models import User, OTP
 import random
 from django.core.mail import send_mail
 from django.conf import settings
 from django.utils.timezone import now
-from .models import Section, UserExamProgress, Question
+
 from django.template.loader import render_to_string
 from django.views.decorators.csrf import csrf_exempt
 import re

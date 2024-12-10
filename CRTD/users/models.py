@@ -41,7 +41,7 @@ class OTP(models.Model):
     def __str__(self):
         return f"OTP for {self.email} - {self.otp_code}"
 
-
+"""
 class Section(models.Model):
     name = models.CharField(max_length=100)
     order = models.PositiveIntegerField(unique=True)  # To define section sequence
@@ -68,4 +68,4 @@ class UserResponse(models.Model):
     selected_option = models.CharField(max_length=50)
     is_correct = models.BooleanField(default=False)
 
-
+"""
